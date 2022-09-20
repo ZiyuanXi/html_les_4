@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1e22;
+    font-family: sans-serif;
+    /*monospace   serif*/
+    color: rgb(5, 0, 63);
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(0,15,33);
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 3em;
+    /* 3 keer groter dan body font size*/
+}
+
+h2 {
+    color: rgb(0,15,33);
+}
+
+/* Here are the general setting of the dic*/
+div {
+    background-color: lightblue;
+    padding: 30px;
+    margin: 30px auto;
+    margin-left: 25vw;
+    width: 50vw;
+    min-width: 500px;
+    max-width: 2000px;
+
+}
+/* for div within a div a nother margin and padding css*/
+#socialMedia, #skills, #hobbies{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #2c3e50;
+    padding: 20px;
+}
+
+ol {
+    margin: 0px;
+    background-color: lightblue;
+}
+
+#kat {
+    width: 50%;
+}
+
+
+/* setting for links button */
+a {
+    color: rgb(0,15,33);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkblue;
+}
