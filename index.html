@@ -10,32 +10,75 @@
 </head>
 
 <body>
+
     <div class="topnavbar">
         <a class="active" href="#top">Home</a>
-        <a href="#hobby">Mijn hobbies</a>
+        <a href="#ME">Wie ben ik</a>
+        <a href="#interesse">Mijn interesse</a>
+        <a href="#skills">Mijn Skills</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-      </div>
+    </div>
     <a name="top"></a>
+
+    <!-- The title of this page -->
     <div>
         <h1> Anny's Portfolio</h1>
-
     </div>
 
+    <!-- Section about me -->
     <div>
-        <a name="hobby"></a>
-        <h2> Mijn hobbies </h2>
-        <div id="hobbies">
-            <ul>
-                <li>Gamen</li>
-                <li>Tekenen</li>
-                <li>Film kijken</li>
-                <li>Anime kijken</li>
-
-            </ul>
+        <a name="ME"></a>
+        <h2> Wie ben ik? </h2>
+        <div class="description" id="ik">
+            <p>
+                Mijn naam is <b>Anny Xi</b>, ik ben geboren in 2000.<br> Ik ben nu bezig met opleiding <b>Creative media
+                    and Game technologie </b> op Hogeschool Rotterdam. <br>Ik ben nu nog opzoek naar wat ik leuk vind in
+                het gebied van
+                Game. In de komende jaren op deze studie ga ik proberen om het uit te zoeken. Ik hoop dat ik het snel
+                kunnen vinden.
+            </p>
         </div>
     </div>
 
+    <!-- section about my interest -->
+    <div>
+        <a name="interesse"></a>
+        <h2> Mijn interesse </h2>
+        <div class="description" id="hobbies">
+            <p>
+                Mijn interesse liggen vooral in het gebied van ACGN, waaronder <b>Animation, Comic, Game, Novel</b>
+            </p>
+        </div>
+        <!-- this container will have a gift from one of my favorite items and will have a link that link to that section with information more about it -->
+        <div class="div-2">
+            <div class="div-3">
+                <h3>Anime</h3>
+                <!-- HIER MOET GIFT KOMEN -->
+                <a href="#mijnAnime"> > Mijn favorite Anime </a>
+            </div>
+            <div class="div-3">
+                <h3>Comic</h3>
+                <!-- HIER MOET GIFT KOMEN -->
+                <a href="#mijnComic"> > Mijn favorite Comic </a>
+            </div>
+        </div>
+        <div class="div-2">
+            <div class="div-3">
+                <h3>Game</h3>
+                <!-- HIER MOET GIFT KOMEN -->
+                <a href="#mijnGame"> > Mijn favorite Game </a>
+            </div>
+            <div class="div-3">
+                <h3>Novel</h3>
+                <!-- HIER MOET GIFT KOMEN -->
+                <a href="#mijnNovel"> > Mijn favorite Novel </a>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- this sections contains more information about myself. -->
     <div>
         <h2> Nog iets over mij</h2>
         <p> Ik hou van katten <br>
@@ -45,27 +88,172 @@
             Thuis heb ik 2 katten.
         </p>
     </div>
-    <div>
+
+    <!-- Section about my skills -->
+
+    <div id="skills">
         <h2> Skills </h2>
-        <div id="skills">
-            <ol>
-                <li> HTML</li>
-                <li> PHP</li>
-                <li> JAVA</li>
-            </ol>
-        </div>
+        <ol>
+            <!-- html -->
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-filetype-html" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                </svg>
+                HTML
+            </li>
+            <!-- PHP -->
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-filetype-php" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.295.185.522Zm4.48 2.666V11.85h-.79v1.626H4.153V11.85h-.79v3.999h.79v-1.714h1.682v1.714h.79Zm.703-3.999h1.6c.288 0 .533.06.732.179.2.117.354.276.46.477.105.201.158.427.158.677 0 .25-.054.476-.161.677-.106.199-.26.357-.463.474a1.452 1.452 0 0 1-.733.173H8.12v1.342h-.791V11.85Zm2.06 1.714a.795.795 0 0 0 .084-.381c0-.227-.061-.4-.184-.521-.123-.122-.294-.182-.513-.182h-.66v1.406h.66a.794.794 0 0 0 .375-.082.574.574 0 0 0 .237-.24Z" />
+                </svg>
+                PHP
+            </li>
+            <!-- Javascript -->
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-filetype-js" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.186 15.29a1.176 1.176 0 0 1-.111-.449h.765a.578.578 0 0 0 .255.384c.07.049.153.087.249.114.095.028.202.041.319.041.164 0 .302-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.255-.144-.462-.193l-.619-.143a1.72 1.72 0 0 1-.539-.214 1.001 1.001 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.528-.422.224-.1.483-.149.776-.149.305 0 .564.05.78.152.216.102.383.239.5.41.12.17.186.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.247-.181.923.923 0 0 0-.369-.068c-.217 0-.388.05-.513.152a.472.472 0 0 0-.184.384c0 .121.048.22.143.3a.97.97 0 0 0 .405.175l.62.143c.218.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Zm-3.104-.033A1.32 1.32 0 0 1 0 14.791h.765a.576.576 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466v-2.745h.79v2.725c0 .44-.119.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.569-.094 1.145 1.145 0 0 1-.407-.266 1.14 1.14 0 0 1-.243-.39Z" />
+                </svg>
+                Javascript
+            </li>
+        </ol>
     </div>
+
+
+    <!-- Section for more about my Anime -->
+    <div id="mijnAnime">
+        <h2>Mijn favorite Anime</h2>
+        <div class="div-2">
+            <div class="div-3" id="guiltyCrown">
+                <p><img name="guiltyCrown" alt="guiltyCrown"
+                        src="https://m.media-amazon.com/images/M/MV5BMjE5NmU2NTEtNTRjNS00MWM0LWJkNTctM2RmNTRkMjA5OGYyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg">
+                </p>
+                <h3>Guilty Crown</h3>
+                <p>Year release: 2011</p>
+                <p> <a href="https://en.wikipedia.org/wiki/Guilty_Crown">More information</a> </p>
+            </div>
+            <div class="div-3" id="overlord">
+                <p><img name="overlord" alt="overlord"
+                        src="https://m.media-amazon.com/images/M/MV5BZjZhYmJlNjgtMmJkNi00Njg2LWJiNWYtMzg0YzFjN2ZmMjFhXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg">
+                </p>
+                <h3>Guilty Crown</h3>
+                <p>Year release: 2012</p>
+                <p> <a href="https://overlordmaruyama.fandom.com/wiki/Overlord_(Anime)">More information</a> </p>
+            </div>
+        </div>
+        <!-- terug naar interesse kop  -->
+        <a href="#interesse">Terug naar interesse</a>
+    </div>
+
+
+    <!-- Section for more about my Comics -->
+    <div id="mijnComic">
+        <h2>Mijn favorite Comics</h2>
+        <div class="div-2">
+            <div class="div-3" id="sandman">
+                <p><img name="sandman" alt="sandman"
+                        src="https://upload.wikimedia.org/wikipedia/en/7/78/The_Sandman-_Endless_Nights_Poster_by_Frank_Quitely.jpg">
+                </p>
+                <h3>The Sandman</h3>
+                <p>Year release: 2013</p>
+                <p> <a href="https://en.wikipedia.org/wiki/The_Sandman_(comic_book)">More information</a> </p>
+            </div>
+            <div class="div-3" id="vendetta">
+                <p><img name="vendetta" alt="vendetta"
+                        src="https://upload.wikimedia.org/wikipedia/en/c/c0/V_for_vendettax.jpg">
+                </p>
+                <h3>V for Vendetta</h3>
+                <p>Year release: 1982</p>
+                <p> <a href="https://en.wikipedia.org/wiki/V_for_Vendetta">More information</a> </p>
+            </div>
+        </div>
+        <!-- terug naar interesse kop  -->
+        <a href="#interesse">Terug naar interesse</a>
+    </div>
+
+    <!-- Section for more about my Games -->
+    <div id="mijnGame">
+        <h2>Mijn favorite Games</h2>
+        <div class="div-2">
+            <div class="div-3" id="arknights">
+                <p><img name="arknights" alt="arknights"
+                        src="https://static-cdn.jtvnw.net/ttv-boxart/511554_IGDB-272x380.jpg">
+                </p>
+                <h3>Arknight</h3>
+                <p>Year release: 2019</p>
+                <p> <a href="https://en.wikipedia.org/wiki/Arknights">More information</a> </p>
+            </div>
+            <div class="div-3" id="loveChoice">
+                <p><img name="loveChoice" alt="loveChoice"
+                        src="https://pbs.twimg.com/media/EfW2n5qU8AAqLC9?format=jpg&name=medium">
+                </p>
+                <h3>Mr love: queen's choice</h3>
+                <p>Year release: 2017</p>
+                <p> <a href="https://en.wikipedia.org/wiki/Mr_Love:_Queen%27s_Choice">More information</a> </p>
+            </div>
+        </div>
+        <!-- terug naar interesse kop  -->
+        <a href="#interesse">Terug naar interesse</a>
+    </div>
+
+    <!-- Section for more about my novels -->
+    <div id="mijnNovel">
+        <h2>Mijn favorite Novels</h2>
+        <div class="div-2">
+            <div class="div-3" id="worldEnd">
+                <p><img name="worldEnd" alt="worldEnd"
+                        src="https://upload.wikimedia.org/wikipedia/en/0/0a/Sukasuka.jpg">
+                </p>
+                <h3>WorldEnd</h3>
+                <p>Year release: 2016</p>
+                <p> <a href="https://en.wikipedia.org/wiki/WorldEnd">More information</a> </p>
+            </div>
+            <div class="div-3" id="bookworm">
+                <p><img name="bookworm" alt="bookworm"
+                        src="https://n1a.ejujiu.com/images/p/f2/95/568fb242b014b639542d9ae2781e.jpg">
+                </p>
+                <h3>Ascendance of a Bookworm</h3>
+                <p>Year release: 2017</p>
+                <p> <a href="https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm">More information</a> </p>
+            </div>
+        </div>
+        <!-- terug naar interesse kop  -->
+        <a href="#interesse">Terug naar interesse</a>
+    </div>
+
+
+    <!-- Section for my contact -->
     <div>
         <h2> Contact </h2>
-        <div id="socialMedia">
+        <div class="div-2" id="socialMedia">
             <ul>
                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
                     <a href="https://www.linkedin.com/in/anny-xi-640997197/"> Linkedin </a>
                 </li>
                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
                     <a href="#"> Instagram </a>
                 </li>
                 <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg>
                     <a href="#"> Youtube </a>
                 </li>
             </ul>
